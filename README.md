@@ -3,10 +3,11 @@ Example Code for Fundamentals of ML for Software Engineers!
 
 This repository includes a single source file; a jupyter notebook containing each of the code samples from this workshop. 
 
-## Setup Instructions (assumes Python 3+ and Jupyter are installed on your machine):
+## Setup Instructions:
 
-1. Clone reposotitory and `cd` into `fundamentals-of-ml-for-se` directory
-2. `python -m pip install requirements.txt`
+1. Clone repository and `cd` into `fundamentals-of-ml-for-se` directory
+2. `python -m pip install pipenv`
+2. `python -m pipenv install`
 3. `python -m spacy download en_core_web_lg`
 4. `python -m spacy download en_core_web_sm`
 5. `python -m notebook`
